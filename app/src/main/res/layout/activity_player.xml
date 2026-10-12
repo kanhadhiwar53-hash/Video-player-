@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#000000">
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/playerView" android:layout_width="match_parent" android:layout_height="match_parent"
+        app:show_buffering="when_playing" app:use_controller="true" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="top" android:gravity="center_vertical" android:orientation="horizontal"
+        android:background="#99000000" android:padding="8dp">
+        <TextView android:id="@+id/btnBack" style="@style/PlayerBtn" android:text="←" />
+        <TextView android:id="@+id/tvTitle" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:textColor="#FFFFFF" android:maxLines="1" android:ellipsize="end" />
+        <TextView android:id="@+id/btnPrev" style="@style/PlayerBtn" android:text="⏮" />
+        <TextView android:id="@+id/btnNext" style="@style/PlayerBtn" android:text="⏭" />
+        <TextView android:id="@+id/btnLock" style="@style/PlayerBtn" android:text="🔒" />
+        <TextView android:id="@+id/btnPip" style="@style/PlayerBtn" android:text="PiP" />
+        <TextView android:id="@+id/btnRotate" style="@style/PlayerBtn" android:text="▭" />
+        <TextView android:id="@+id/btnMenu" style="@style/PlayerBtn" android:text="⚙" />
+    </LinearLayout>
+</FrameLayout>
