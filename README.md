@@ -10,6 +10,10 @@ Kotlin + XML Android video player starter. Paste an iframe HTML snippet, an embe
 - Copy detected URLs and see useful playback/load errors.
 - Dark UI.
 
+## Integration guides
+- [Player setup](SETUP.md) — dependencies, manifest registration, and player launch example.
+- [Extractor setup](EXTRACTOR_SETUP.md) — extractor dependencies and authorized host integration.
+
 ## Build locally
 Open this project in Android Studio with JDK 17 and Android SDK 35, sync Gradle, and run the app.
 
