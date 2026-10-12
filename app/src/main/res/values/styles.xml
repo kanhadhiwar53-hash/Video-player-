@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.StreamPlayer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#8B5CF6</item>
+        <item name="colorPrimaryVariant">#6D28D9</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">#101014</item>
+        <item name="android:navigationBarColor">#101014</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorAccent">#A78BFA</item>
+    </style>
+</resources>
